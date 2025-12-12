@@ -436,7 +436,7 @@ function M.setup_keymaps()
       marks_module.goto_mark(marks_data[mark_index])
     end
   end
-  set_keymaps(config.keymaps.goto, goto_func)
+  set_keymaps(config.keymaps["goto"], goto_func)
 
   -- Delete mark
   local delete_func = function()
