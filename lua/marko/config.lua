@@ -11,7 +11,7 @@ local default_config = {
   navigation_mode = "popup",
   keymaps = {
     delete = "d",
-    goto = "<CR>",
+    ["goto"] = "<CR>",
     close = "<Esc>",
   },
   -- Direct mode configuration
